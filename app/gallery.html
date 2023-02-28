@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desire</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="http://localhost:3000/about.html">About</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link menu__list-link--active" href="http://localhost:3000/gallery.html">Gallery</a>
+              </li>
+            </ul>
+          </nav>
+          <a class="logo" href="http://localhost:3000/">
+            <img src="images/logo.png" alt="logo">
+          </a>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="http://localhost:3000/blog.html">Blog</a>
+              </li>
+              <li class="menu__list-item">
+                <a class="menu__list-link" href="http://localhost:3000/contact.html">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="header__btn">
+            <img src="images/header_btn.svg" alt="menu_icon">
+          </button>
+          <div class="rightside rightside-close">
+            <button class="rightside__btn-close">
+              <img src="images/rightside-close.svg" alt="">
+            </button>
+            <div class="rightside__content">
+              <a class="rightside__content-logo" href="#">
+                <img src="images/rightside-logo.png" alt="">
+              </a>
+              <ul class="rightside__menu-list">
+                <li class="menu__list-item">
+                  <a class="menu__list-link rightside__menu-list--link"
+                    href="http://localhost:3000/about.html">About</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link rightside__menu-list--link"
+                    href="http://localhost:3000/gallery.html">Gallery</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link rightside__menu-list--link" href="http://localhost:3000/blog.html">Blog</a>
+                </li>
+                <li class="menu__list-item">
+                  <a class="menu__list-link rightside__menu-list--link"
+                    href="http://localhost:3000/contact.html">Contact</a>
+                </li>
+              </ul>
+              <h4 class="rightside__content-title">
+                Furniture for life
+              </h4>
+              <p class="rightside__content-text">
+                Sustainable hot chicken skateboard, dreamcatcher meggings actually squid. Slow-carb everyday carry +1
+                art party microdosing, put a bird on it brooklyn
+              </p>
+              <img class="rightside__content-image" src="images/content/rightside-image.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="breadcrumbs">
+        <div class="container">
+          <div class="breadcrumbs__inner">
+            <ul class="breadcrumbs__list">
+              <li class="breadcrumbs__list-item">
+                <a class="breadcrumbs__list-link" href="#">Home</a>
+              </li>
+              <li class="breadcrumbs__list-item">
+                <a class="breadcrumbs__list-link" href="#">Gallery</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery gallery-big">
+        <div class="container-fluid">
+          <div class="gallery__buttons">
+            <button class="gallery__btn" data-filter=".bedroom">Bedroom furniture</button>
+            <button class="gallery__btn" data-filter=".living">Living room furniture</button>
+            <button class="gallery__btn" data-filter=".office">Office furniture</button>
+            <button class="gallery__btn" data-filter=".dining">Dining room futniture</button>
+            <button class="gallery__btn" data-filter=".chair">Chair</button>
+          </div>
+          <div class="gallery__inner">
+            <div class="gallery__items-1 mix bedroom">
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/1.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/2.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/3.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/4.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/5.jpg" alt="image">
+              </a>
+            </div>
+            <div class="gallery__items-2 mix bedroom">
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/6.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/7.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/8.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/9.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/10.jpg" alt="image">
+              </a>
+            </div>
+
+            <div class="gallery__items-1 mix living">
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/1.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/2.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/3.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/4.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/5.jpg" alt="image">
+              </a>
+            </div>
+            <div class="gallery__items-2 mix living">
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/6.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/7.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/8.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/9.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/10.jpg" alt="image">
+              </a>
+            </div>
+
+            <div class="gallery__items-1 mix office">
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/1.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/2.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/3.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/4.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/5.jpg" alt="image">
+              </a>
+            </div>
+            <div class="gallery__items-2 mix office">
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/6.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/7.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/8.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/9.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/10.jpg" alt="image">
+              </a>
+            </div>
+
+            <div class="gallery__items-1 mix dining">
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/1.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/2.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/3.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/4.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/5.jpg" alt="image">
+              </a>
+            </div>
+            <div class="gallery__items-2 mix dining">
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/6.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/7.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/8.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/9.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/10.jpg" alt="image">
+              </a>
+            </div>
+
+            <div class="gallery__items-1 mix chair">
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/1.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/2.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/3.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/4.jpg" alt="image">
+              </a>
+              <a class="gallery__items-1--item" href="#">
+                <img src="images/gallery/5.jpg" alt="image">
+              </a>
+            </div>
+            <div class="gallery__items-2 mix chair">
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/6.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/7.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/8.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/9.jpg" alt="image">
+              </a>
+              <a class="gallery__items-2--item" href="#">
+                <img src="images/gallery/10.jpg" alt="image">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <div class="footer__content">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__contact_us">
+              <h5 class="footer__title">
+                Contact Us
+              </h5>
+              <p class="footer__text">
+                Keffiyeh poutine etsy, paleo cray put a bird on it microdosing schlitz you probably
+                occupy
+              </p>
+              <a class="footer__mail" href="mailto:ouremailaddress@email.com">
+                ouremailaddress@email.com
+              </a>
+              <form class="footer__form" action="#">
+                <input class="footer__form-mail" type="email" placeholder="Subscribe by email" required>
+                <button class="footer__form-btn" type="submit">Send</button>
+              </form>
+            </div>
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a class="footer__social-link 
+                                          footer__social-link--facebook" href="#">facebook</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link 
+                                          footer__social-link--instagram" href="#">Instagram</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link 
+                                          footer__social-link--pinterest" href="#">Pinterest</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link 
+                                          footer__social-link--whatsapp" href="#">WhatsApp</a>
+              </li>
+              <li class="footer__social-item">
+                <a class="footer__social-link 
+                                          footer__social-link--youtube" href="#">Youtube</a>
+              </li>
+            </ul>
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Delivery</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">FAQ</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">Help</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a class="footer__menu-link" href="#">More About Us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__copyright">
+        <div class="container">
+          <p>
+            674 Gonzales Drive. Washington, PA 15301
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
